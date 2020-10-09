@@ -1,0 +1,56 @@
+<!--
+  CFM Purple Army Homework Assignment
+  Date: January 24, 2018
+
+  Index Page for New City Planning Zone
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The New City Planning Zone</title>
+     <!-- Website Info (meta tags)-->
+     <meta charset="UTF-8" />
+     <meta name="keywords" content="city planning, cities, ciudad, streets, 
+      city plans, city streets, city street plans, history of city planning" />
+     <meta name="description" content="The New City Planning Zone Member Access Login Page" />
+     <meta name="author" content="Ben Yee" />
+     <meta name="copyright" content="Copyright 2018, All Rights Reserved" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+     <!--Styles / Favicon / Bootstrap -->
+     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/base.css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+     
+      <!-- AngularJS Scripts -->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.js"></script>
+      <!-- AngularJS Validation -->
+   <script src="js/login-validate.js"></script>
+    </head>
+    <body ng-app="login-app">
+        <!-- Logo and Image -->
+    <header>
+        <h1 class="title">THE <span class="red">NEW</span>  
+		<!-- Contains old Eco Web Host link - Revised 05/25/2019 
+            <a href="http://thecityplanningzone-com.stackstaging.com/" target="_blank">CITY PLANNING ZONE</a>
+			-->
+			CITY PLANNING ZONE 
+        </h1>
+         <img class="bg" src="images/city-background.jpg" alt="city background" 
+              title="City Planning Zone Logo"/>
+    </header>
+        
+        <!-- View Login and Splash Pages -->
+        <div ng-view>
+        </div>
+        
+    <!-- Copyright info -->
+    <footer>
+        <div class="copy">
+            <p>&copy; 2018 Morning Star Web Designs</p>
+        </div>
+    </footer>
+    </body>
+</html>

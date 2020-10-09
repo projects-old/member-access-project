@@ -1,0 +1,40 @@
+<!--
+  CFM Purple Army Homework Assignment
+  Date: January 24, 2018
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New City Planning Zone - Account Login</title>
+ <!-- Website Info (meta tags)-->
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="city planning, cities, ciudad, streets, 
+    city plans, city streets, city street plans, history of city planning" />
+  <meta name="description" content="The New City Planning Zone Member Access Login Page" />
+  <meta name="author" content="Ben Yee" />
+  <meta name="copyright" content="Copyright 2018, All Rights Reserved" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+</head>   
+<body>
+    
+     <!-- Basic Login Form -->
+     <div class="login-form">
+        <h2>Member Login</h2>
+        <br />
+      <form ng-controller="loginCtrl">
+          <div class="form-group">
+              <input type="text" id="username" class="form-control" ng-model="username" placeholder="username" required autofocus />
+          </div> 
+          <div class="form-group">
+              <input type="password" id="password" class="form-control" ng-model="password" placeholder="password" required />
+          </div>
+          <div class="btn-enter form-group">
+              <button type="submit" class="btn btn-success" ng-click="submit()">Sign In</button>
+              <div class="alert alert-danger" role="alert" ng-show="errorMsg">{{errorMsg}}</div>
+           <br />
+          </div>
+      </form>
+    </div>
+</body>
+</html>

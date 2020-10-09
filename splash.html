@@ -1,0 +1,52 @@
+<!--
+  CFM Purple Army Homework Assignment
+  Date: January 24, 2018
+  Members Only Splash Page - Under Construction
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New City Planning Zone - Members Only Page</title>
+    
+ <!-- Website Info (meta tags)-->
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="city planning, cities, ciudad, streets, 
+    city plans, city streets, city street plans, history of city planning" />
+  <meta name="description" content="The New City Planning Zone Member Access Page" />
+  <meta name="author" content="Ben Yee" />
+  <meta name="copyright" content="Copyright 2018, All Rights Reserved" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  
+ <!--CSS and SASS / Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+   <link rel="stylesheet" href="css/base.css" />
+   
+</head>
+<body ng-app="login-app">
+    <!--Members Only Welcome Page -->
+    <div class="login-form" ng-controller="loginCtrl">
+        <h2>Members Only Page</h2>
+        <br />
+        <p> Welcome, User!</p>
+        <!--
+        <p>Welcome, {{username}}! </p>
+        -->
+        <br />
+        <img class="sign" src="images/Under-Construction-Sign.gif" 
+             alt="Under Construction" />
+        <p>Future exclusive content may include:</p>
+        <ul class="list">
+            <li>Community Forum</li>
+            <li>Interviews from Expert Urban Planners and Architects</li>
+            <li>Giveaways, including Amazon&reg; gift cards!</li>
+        </ul>
+        
+        <div class="btn-enter" ng-controller="logoutCtrl">
+          <button type="button" class="btn btn-info btn-sm" ng-click="signOut()">
+           Log out
+          </button>
+        </div>
+   </div>
+</body>
+</html>
