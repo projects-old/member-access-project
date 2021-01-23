@@ -2,9 +2,9 @@
 
 This simple project was used for a job interview. 
 
-Front-end framework: <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> **Bootstrap** 
+Front-end framework: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="bootstrap" width="40" height="40"/> **Bootstrap** 
 <br/>
-Back-end: <img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-plain.svg" alt="angularjs" width="40" height="40"/> **Angular.js** 
+Back-end: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/375px-Angular_full_color_logo.svg.png" alt="angularjs" width="40" height="40"/> **Angular.js** 
 
 - Simple login page uses Bootstrap for the UI / UX Design
 - Validation and MVC Model uses Angular to validate the script to the splash page
